@@ -1,0 +1,43 @@
+a,a:hover{
+  color:black;
+  text-decoration: none;
+}
+.navbar{
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  height: 2.5rem;
+  padding: 0 10%;
+}
+
+/*************************CONTENT*************************/
+
+.content{
+  padding-top: 7rem;
+  text-align: center;
+  padding: 7% 10%;
+}
+
+#postTitle{
+  font-size: 3rem;
+  text-align-last: left;
+}
+
+#author{
+  color: grey;
+  text-align: left;
+}
+
+#postBody{
+  text-align: left;
+  font-size: 1rem;
+  margin: 3rem 0;
+}
+
+/*************************Footer*************************/
+
+.img img{
+  width: 20px;
+  margin: 2px;
+}
