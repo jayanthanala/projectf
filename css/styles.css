@@ -1,15 +1,29 @@
+
 a,a:hover{
   color:black;
   text-decoration: none;
 }
+body{
+  padding:0;
+  margin:0;
+}
+
 .navbar{
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   background-color: white;
+  display: flex;
   width: 100%;
   position: fixed;
+  align-items: center;
   height: 2.5rem;
-  padding: 0 10%;
+  padding: 0.5% 10%;
+  font-size: 1.3rem;
 }
+
+.navbar span{
+  padding: 0 1%;
+}
+
 
 /*************************CONTENT*************************/
 
@@ -19,25 +33,69 @@ a,a:hover{
   padding: 7% 10%;
 }
 
-#postTitle{
+.postTitle{
   font-size: 3rem;
-  text-align-last: left;
+  text-align: left;
 }
 
-#author{
+.author{
   color: grey;
   text-align: left;
+  position: relative;
+  bottom: 20px;
 }
 
-#postBody{
-  text-align: left;
+.postBody{
+  text-align: justify;
   font-size: 1rem;
   margin: 3rem 0;
 }
+
+.ig{
+  text-align: center;
+}
+.heart{
+  width:40px;
+  height:40px;
+  margin-top:400px;
+  margin-left: 1350px;
+  position: fixed;
+  z-index: 1;
+}
+img{
+  width:40px;
+  height:40px;
+  margin-top:450px;
+  margin-left: 1350px;
+  position: fixed;
+}
+
+.like p{
+  margin-top:465px;
+  margin-left: 1400px;
+  position: fixed;
+}
+
+img:hover{
+  opacity: 60%;
+  border:2px solid green;
+  transition: border-color 0.3s ease-in;
+  animation: shockwave 1s ease-in infinite;
+  border-radius: 10px;
+
+}
+
+
+
+
 
 /*************************Footer*************************/
 
 .img img{
   width: 20px;
   margin: 2px;
+}
+
+.text{
+  font-size: .9rem;
 }
