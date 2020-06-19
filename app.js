@@ -11,12 +11,12 @@ $(".author").mouseleave(function(){
   $(".like").fadeOut("3000");
 });
 
-$("img").click(function(){
+$(".heart").click(function(){
   $("this").css("background-color","red");
 });
 
 
-$("img").click(function(){
+$(".hand").click(function(){
   i++;
   like.push(i);
   var len = like.length;
