@@ -75,12 +75,12 @@ img[alt="hand"]{
 }
 
 img[alt="hand"]:hover{
-  
-  width: 42px;
-  height: 42px;
+
+  width: 41px;
+  height: 41px;
   padding:2px;
   border:2px solid green;
-  transition: yellow 0.9s ease-in;
+  transition: border-color 0.9s ease-in;
   animation: shockwave 1s ease-in infinite;
   border-radius: 100%;
 
