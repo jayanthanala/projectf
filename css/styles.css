@@ -75,11 +75,14 @@ img[alt="hand"]{
 }
 
 img[alt="hand"]:hover{
-  opacity: 60%;
+  
+  width: 42px;
+  height: 42px;
+  padding:2px;
   border:2px solid green;
   transition: yellow 0.9s ease-in;
   animation: shockwave 1s ease-in infinite;
-  border-radius: 10px;
+  border-radius: 100%;
 
 }
 
