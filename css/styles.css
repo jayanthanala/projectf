@@ -18,6 +18,8 @@ body{
   height: 2.5rem;
   padding: 0.5% 10%;
   font-size: 1.3rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
 }
 
 .navbar span{
@@ -37,6 +39,7 @@ body{
   font-size: 3rem;
   text-align: left;
   font-family: 'Rubik', sans-serif;
+  font-weight: 500;
 }
 
 .author{
@@ -49,8 +52,6 @@ body{
 .cell{
   padding: 10px 90px;
 }
-
-
 
 .postBody{
   text-align: justify;
@@ -80,10 +81,9 @@ img[alt="hand"]:hover{
   height: 41px;
   padding:2px;
   border:2px solid green;
-  transition: border-color 0.9s ease-in;
+  transition: border-color 0.4s ease-in;
   animation: shockwave 1s ease-in infinite;
   border-radius: 100%;
-
 }
 
 
@@ -99,4 +99,29 @@ img[alt="hand"]:hover{
 
 .text{
   font-size: .9rem;
+}
+
+
+/*************************Media Query*************************/
+
+@media (max-width: 568px) {
+  .navbar{
+    height: 5vh;
+    font-size: 2rem;
+  }
+  .like{
+
+  }
+
+  .cell{
+    padding: 10px 1px;
+  }
+
+  .img img{
+    width: 40px;
+    margin: 4px;
+  }
+  .text{
+    font-size: .8rem;
+  }
 }
